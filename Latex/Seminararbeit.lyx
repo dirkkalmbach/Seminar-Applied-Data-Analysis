@@ -1,0 +1,4381 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+
+\setcitestyle{round}
+\hypersetup{urlcolor=yellow}
+\end_preamble
+\options rount
+\use_default_options true
+\maintain_unincluded_children false
+\language ngerman
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 2.5cm
+\rightmargin 3cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style german
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Date
+Dirk Kalmbach
+\end_layout
+
+\begin_layout Title
+Mechanics of Industrial Revolution - eine kritische Auseinandersetzung
+\end_layout
+
+\begin_layout Standard
+\align center
+FernUniversität in Hagen, Fakultät für Wirtschaftswissenschaft
+\end_layout
+
+\begin_layout Standard
+\align center
+Seminararbeit
+\end_layout
+
+\begin_layout Standard
+\align center
+Sommersemester 2024
+\end_layout
+
+\begin_layout Right Address
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Address
+\paragraph_spacing single
+
+\size small
+Studiengang: Master Wirtschaftsinformatik
+\end_layout
+
+\begin_layout Address
+\paragraph_spacing single
+
+\size small
+Matrikelnummer: 6124097
+\end_layout
+
+\begin_layout Address
+\paragraph_spacing single
+
+\size small
+Tel.: +86 130 5229 8090
+\end_layout
+
+\begin_layout Address
+\paragraph_spacing single
+
+\size small
+Email: dirk.kalmbach@studium.fernuni-hagen.de
+\end_layout
+
+\begin_layout Address
+\paragraph_spacing single
+
+\size small
+Adresse: 500 Changde Rd., 1-23D, Shanghai, China
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{roman}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+\align center
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset Graphics
+	filename figures/Gray1824.englandwales.jpg
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+\align center
+(entnommen aus 
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "gray1824"
+literal "false"
+
+\end_inset
+
+)
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{arabic}
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Einleitung
+\end_layout
+
+\begin_layout Standard
+Diese Seminararbeit beschäftigt sich mit dem Papier 
+\begin_inset Quotes eld
+\end_inset
+
+The Mechanics of the Industrial Revolution
+\begin_inset Quotes erd
+\end_inset
+
+ von Morgan Kelly, Joel Mokyr und Cormac Ó Gráda - im weiteren einfacherweise
+ mit 
+\shape italic
+Papier
+\shape default
+ und 
+\shape italic
+Autoren
+\shape default
+ bezeichnet - veröffentlicht 2023 im Journal of Political Economy 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kelly2023"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Das Papier wurde 2022 zusammen mit dem Datenmaterial vorveröffentlicht.
+ Die folgende Arbeit analysisert diese und zusätzliche Daten mit dem Statistikpr
+ogramm R-Studio.
+ 
+\end_layout
+
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Subparagraph*
+Motivation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+hohe R2 Werte die mich stutzig machten
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph*
+Github
+\end_layout
+
+\begin_layout Standard
+Alle hier dargestellten statistischen Analysen wurden mit R durchgeführt
+ und sind auf Github unter 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/dirkkalmbach/Seminar-Applied-Data-Analysis.git"
+
+\end_inset
+
+ einsehbar.
+ An ausgewählten Stellen in der Seminararbeit wird darüber hinaus in Fußnoten
+ auf die konkrete Stelle im 
+\shape italic
+R-Skript
+\shape default
+ hingewiesen um ein Auffinden zu erleichtern und die statistischen Erklärungen
+ in der Seminararbeit möglichst knapp halten zu könnnen.
+ 
+\end_layout
+
+\begin_layout Section
+Kritische Analyse des Papiers
+\end_layout
+
+\begin_layout Subsection
+Kritisch-theoretische Analyse
+\end_layout
+
+\begin_layout Subsubsection
+Das theoretische Modell
+\end_layout
+
+\begin_layout Standard
+Ziel des Papers war es die Entstehung von Industrialisierung zu erklären.
+ Industrialisierung ist nicht direkt messbar.
+ Es handelt sich um ein theoretisches Konstrukt (Backhaus), das zunächst
+ durch geeignete Indikatoren messbar gemacht werden muss.
+ Die Autoren wählen als Indikator die Beschäftigung in der Textilindustrie.
+ 
+\end_layout
+
+\begin_layout Standard
+Es wäre also konsequenter zu reklamieren, dass die Autoren die Entstehung
+ der Textilindustrie im beginnenden industriellen England regressionsanalytisch
+ erfasst haben.
+ Industrialisierung 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Ist Industrialisierung überhaupt monokausal.
+ Muss nicht vielmehr angenommen werden, dass es sich um einen komplexen
+ Prozess handelt mit gegenseitig beeinflussenden Variablen, die sich regional
+ und zeitlich ändern?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph*
+Industrialisierung schon im 16.
+ Jahrhundert? 
+\end_layout
+
+\begin_layout Standard
+So gibt es Hinweise, dass die Industrialisierung schon weit vor dem 18.
+ Jahrhundert begann: Auswertungen von Arbeitsstatistiken aus dem 17.
+ Jahrhundert - und somit bereits Generationen vor der hier untersuchten
+ Zeit von 1831 und 1851 - deuten auf eine frühe wirtschaftliche Transformation
+ hin: Landwirtschaft nahm zugunsten des produzierendes Gewerbes (Handwerksbetrie
+be und von zu Hause arbeitende Weber) ab.
+ Darüber hinaus ist interessant, dass sich ebenso bereits im 19.
+ Jahrhundert der Dienstleistungssektor verdoppelte - und nicht erst Mitte
+ des 20.
+ Jahrhunderts.
+ Zumindest in England begannen die wirtschaftlichen Transformationsphasen
+ also deutlich als allgemein angenommen.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "UniCamb2024"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Aus Zeit- und Platzgründen im Rahmen dieser Seminararbeit zwar nicht möglich,
+ wäre es durchaus interessant zu überprüfen, ob damals schon Daten für einzelne
+ Landkreise erhoben wurden und - falls so - zu überprüfen, ob sich statistische
+ Zusammenhänge zwischen dem Grad der Transformation im 16.
+ Jahrhundert und dem Auftreten von Textilindustrien im 19.
+ Jahrhundert erkennen lassen.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Textilindustrie als guter Indikator für Industrialisierung? 
+\end_layout
+
+\begin_layout Subparagraph
+Einleitung
+\end_layout
+
+\begin_layout Standard
+Ich werde im folgenden zeigen, dass der Anteil der Beschäftigten in der
+ Textilbranche kein geeigneter Indikator zur Messung des regionalen Industrialis
+ierungsfortschritts ist.
+\end_layout
+
+\begin_layout Paragraph
+Anteil der Beschäftigten in der Textilbranche ist rückläufig
+\end_layout
+
+\begin_layout Standard
+Ein weiterer Hinweis, dass die relative Höhe des Beschäftigungsanteils in
+ der Textilindustrie kein guter Indikator für Industrialisierung ist, zeigt
+ schon der rückläufige Anteil der Beschäftigten in der Mehrheit der Counties
+ (siehe Landkreise 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Veränderung-des-Anteils"
+
+\end_inset
+
+).
+ Dem könnte man entgegen halten, dass die Textilindustrie lediglich den
+ Beginn für die Industrialisierung repräsentiert hat, sozusagen ein industrielle
+r Frühindikator war.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+VERÄNDERUNG BESCHÄFTIGUNG IN TEXTILBRANCHE 1831-1851
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+n
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anzahl Counties mit Wachstum der Beschäftigung
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anzahl Counties mit Rückgang der Beschäftigung
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+24
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Veränderung-des-Anteils"
+
+\end_inset
+
+Veränderung des Anteils der Beschäftigten in Textilbranche zwischen 1831
+ und 1851
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Das mag einerseits daran liegen, dass eine gewisse Sättigung in der Textilbranch
+e relativ zu anderen Branchen der Industrialisierung eingesetzt hat oder
+ dass ...
+ Im letzteren wäre folglich der Produktionsoutput der Textilindustrie eine
+ relevantere Größe zur Messung von Industrialisierung.
+\end_layout
+
+\begin_layout Standard
+Schaut man sich die geografische Verteilung der Counties an (Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Counties-mit-steigendem-Anteil"
+
+\end_inset
+
+), überrascht, dass es v.a.
+ Counties im Süden und Osten sind - jene Regionen also in denen die Industrialis
+ierung gemeinhin später begonnen hat
+\begin_inset Graphics
+	filename figures/counties_with_textile_increase.png
+	height 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+Schlussfolgerung
+\end_layout
+
+\begin_layout Subsection
+Kritisch-emprische Analyse
+\end_layout
+
+\begin_layout Subsubsection
+Explorative Datenanalyse (EDA) 
+\end_layout
+
+\begin_layout Paragraph*
+Ungenauigkeiten bei der Data Preperation
+\end_layout
+
+\begin_layout Standard
+Im Rahmen der EDA fielen einige Ungenauigkeiten auf.
+ Auffallend waren einige Berechnungsfehler bei den konstruierten Variablen
+ im Datensatz 
+\family typewriter
+england_map.Rda
+\family default
+:
+\end_layout
+
+\begin_layout Itemize
+Die Variablen für die Bevölkerungszahlen für 1761 und 1831 bestehen aus
+ unterschiedlichen Datentypen.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Itemize
+Vgl.
+ den Abschnitt 
+\begin_inset Quotes gld
+\end_inset
+
+POPULATION
+\begin_inset Quotes grd
+\end_inset
+
+ in 
+\family typewriter
+cross-check.R
+\end_layout
+
+\end_inset
+
+ Das hat jetzt zwar keine Auswertung auf das Ergebnis, zeigt aber dass die
+ Autoren das Data Cleaning wohl nicht so genau genommen haben.
+ 
+\end_layout
+
+\begin_layout Itemize
+Bei der Berechnung der Quantile für die Variable 
+\family typewriter
+Textiles_1831
+\family default
+ wurde ein Landkreis (YNR) falsch zugeordnet.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Itemize
+Vgl.
+ den Abschnitt 
+\begin_inset Quotes gld
+\end_inset
+
+CHECK QUANTILES
+\begin_inset Quotes grd
+\end_inset
+
+ in 
+\family typewriter
+cross-check.R
+\end_layout
+
+\end_inset
+
+ Auch dies hat keine Auswirkungen auf die Regressionsmodelle, verzerrt aber
+ die grafischen Ausdrucke der Landkreise im Papier zugunsten der Interpretation
+ der Autoren.
+ 
+\end_layout
+
+\begin_layout Itemize
+Für die Quantilbildung der Variablen 
+\family typewriter
+wage_1760
+\family default
+ gaben sich sogar Abweichungen für 5 verschiedene Landkreise.
+ Wenngleich diese gering waren, ändert sich auch hier die Interpretation
+ der grafischen Ergebnisse zugunsten der Autoren.
+ Die Quantilbildung der Variablen wage_1830 hingegen ist fehlerfrei.
+\end_layout
+
+\begin_layout Itemize
+Die Variable 
+\family typewriter
+Wage
+\family default
+ wurde durch Logarithmierung der Rohdatenvariable 
+\family typewriter
+wage.1767
+\family default
+ gebildet.
+ Hier zeigte sich dass für den Landkreis Herfordshire (HRF) ein falsches
+ Ergebnis mit einer deutlichen Abweichung berechnet wurde.
+ (FN: CHECK THE VAR 
+\family typewriter
+wage.1767
+\family default
+ and Wage in 
+\family typewriter
+cross-check.R
+\family default
+) 
+\end_layout
+
+\begin_layout Standard
+Nun kann man diese kleineren "Ungenauigkeiten" als Leichtigkeitsfehler abtun,
+ man muss sich aber schon fragen wie die Autoren mit der Datenanalyse grundsätzl
+ich vorgegangen sind.
+ Solche Abweichungen, die nur einzelne Werte betreffen dürften ja eigentlich
+ nicht vorkommen, da im Data Cleaning und Data Preperation die Schritte
+ nicht nur nachvollziehbar, sondern v.a.
+ Variablenweise erfolgten, d.h.
+ z.B.
+ dass bei einer Logarithmierung einer Variablen ein Wert deutlich anders
+ ist, kann eigentlich nicht vorkommen.
+\end_layout
+
+\begin_layout Paragraph
+Absolute Beschäftigung in der Textilindustrie
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/Histogramm_Beschaeftigungsanteile_Textil.png
+	height 8cm
+	rotateOrigin leftTop
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Anteil Beschäftigter in der Textilindustrie 1831 und 1851
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wie hoch sind eigentlich die absoluten Beschäftigungszahlen in der Textilindustr
+ie in den einzelnen Landkreisen? Der Datensatz beinhaltet ja logarithmierte
+ Anteilswerte.
+ Dadurch sind die tatsächlichen Größenverhältnisse nicht sofort sichtbar.
+ Eine kurze Datentransformation zeigte in der Tat, dass einige Landkreise
+ so geringe Werte aufweisen, dass man die Anwendung von multivariaten Analysever
+fahren wie Regressionsanalysen durchaus in Frage stellen kann, während andere
+ Landkreise sehr hohe absolute Beschäftigungszahlen aufweisen (vgl.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:hoechste_absolute_beschaeftigung"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ und 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:niedrigste_absolute_beschaeftigung"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Der Datensatz besteht also aus Extremwerten.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering 
+\backslash
+begin{tabular}{rllrr}   
+\backslash
+hline  & Code & Name & Textiles 1831 & Textiles 1851 
+\backslash
+
+\backslash
+    
+\backslash
+hline 4 & CHE & Cheshire & 28627 & 5961 
+\backslash
+
+\backslash
+    6 & CNW & Cornwall & 21011 & 5294 
+\backslash
+
+\backslash
+    22 & MSX & Middlesex & 15805 & 2489 
+\backslash
+
+\backslash
+    40 & YNR & Yorkshire.North & 14005 & 4320 
+\backslash
+
+\backslash
+    10 & DRS & Dorset & 10854 & 2986 
+\backslash
+
+\backslash
+    9 & DRH & Durham & 10693 & 2703 
+\backslash
+
+\backslash
+     
+\backslash
+hline 
+\backslash
+end{tabular}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:hoechste_absolute_beschaeftigung"
+
+\end_inset
+
+Landkreise mit höchster absoluter Beschäftigung im Textilsektor
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering 
+\backslash
+begin{tabular}{rllrr}   
+\backslash
+hline  & Code & Name & Textiles 1831 & Textiles 1851 
+\backslash
+
+\backslash
+    
+\backslash
+hline 29 & SFF & Suffolk & 82 & 93 
+\backslash
+
+\backslash
+    38 & WTS & Wiltshire & 67 & 201 
+\backslash
+
+\backslash
+    27 & OXD & Oxfordshire & 42 & 38 
+\backslash
+
+\backslash
+    28 & RTL & Rutland & 38 & 14 
+\backslash
+
+\backslash
+    15 & HNT & Huntingdonshire & 15 & 11 
+\backslash
+
+\backslash
+    35 & WML & Westmorland & 15 & 24 
+\backslash
+
+\backslash
+     
+\backslash
+hline 
+\backslash
+end{tabular}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:niedrigste_absolute_beschaeftigung"
+
+\end_inset
+
+Landkreise mit niedrigster absoluter Beschäftigung im Textilsektor
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering 
+\backslash
+begin{tabular}[t]{lcccccc} 
+\backslash
+toprule   & (1) & (2) & (3) & (4) & (5) & (6)
+\backslash
+
+\backslash
+ 
+\backslash
+midrule Skills 1790s & 2.022*** & 2.466*** & 2.020*** & 1.151*** & 1.079* & 1.007**
+\backslash
+
+\backslash
+  & (0.503) & (0.668) & (0.511) & (0.398) & (0.532) & (0.377)
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+Wage 1760s & -4.776* & -5.402* & -4.783 & -3.035 & -3.004 & -1.623
+\backslash
+
+\backslash
+  & (2.742) & (2.817) & (2.937) & (2.109) & (2.138) & (2.056)
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+Mkt Potential 1750 & 0.712** & 0.592* & 0.712** & 0.503** & 0.514** & 0.403*
+\backslash
+
+\backslash
+  & (0.301) & (0.320) & (0.306) & (0.217) & (0.227) & (0.209)
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+Distance to Coal &  & 0.720 &  &  & -0.127 & 
+\backslash
+
+\backslash
+  &  & (0.685) &  &  & (0.650) & 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+Water Power &  &  & 0.001 &  &  & -0.664*
+\backslash
+
+\backslash
+  &  &  & (0.425) &  &  & (0.348)
+\backslash
+
+\backslash
+ 
+\backslash
+midrule Num.Obs.
+ & 41 & 41 & 41 & 41 & 41 & 41
+\backslash
+
+\backslash
+ R2 & 0.684 & 0.695 & 0.676 & 0.813 & 0.810 & 0.865
+\backslash
+
+\backslash
+ R2 Adj.
+ & 0.684 & 0.695 & 0.676 & 0.8135 & 0.810 & 0.865
+\backslash
+
+\backslash
+ AIC & 131.1 & 130.6 & 132.9 & 88.7 & 89.5 & 74.3
+\backslash
+
+\backslash
+ s(X,Y) & 0.641 & 0.534 & 0.768 & 0.070 & 0.076
+\end_layout
+
+\begin_layout Plain Layout
+
+& 0.0132
+\backslash
+
+\backslash
+ 
+\backslash
+bottomrule 
+\backslash
+end{tabular}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Regressionsanalyse aus Papier (Tabelle 1)
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Regressionsanalyse-aus-Papier"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Und in der Tat weisen einige wenn auch wenige Landkreise so geringe Beschäftigun
+gszahlen auf, dass die Frage erlaubt ist, ob diese Landkreise nicht besser
+ aus der Analyse entfernt werden sollten.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Regressionstechnisch stellen diese niedrigen Beschäftigungswerte zwar kein
+ Problem da die Werte für die Regressionsanalyse ja transformiert werden
+ und sie immer noch groß genug sind, um etwaige Verletzungen der Normalverteilun
+gsannahme ausschließen
+\end_layout
+
+\end_inset
+
+.
+ Dennoch muss man sich fragen, ob die Erhebungen damals wirklich so genau
+ waren: ein kleiner Messfehler in Landkreisen mit niedriger Beschäftigungszahlen
+ kann durchaus zu einer Verzerrung des Schätzers führen.
+\end_layout
+
+\begin_layout Subsubsection
+Regressionsmodelle
+\end_layout
+
+\begin_layout Subparagraph*
+Einige allgemeine Anmerkungen zu den Modellen
+\end_layout
+
+\begin_layout Standard
+Auffällig ist auch, dass die Regressionsanalyse für 1851 einen geringen
+ Regressionskoeffizienten für den Einfluss der Kohle (
+\family typewriter
+Coal_Distance
+\family default
+) liefert als für 1831.
+ Letztendlich müsste der Einfluss der Kohle doch zunehmen und nicht abnehmen.
+\end_layout
+
+\begin_layout Standard
+Was übrigens auch in dem Regressionsoutput im Papier fehlt, sind die Daten
+ für die Regressionskonstante.
+ Die Regressionskonstante könnte interpretiert werden als "natürliche" Erklärung
+ für Industrialisierung, d.h.
+ wie viel Industrialisierung erklärt das Modell, wenn alle unabhängigen
+ Variablen null sind.
+ Allerdings ist sie in allen Modellen nicht signifikant.
+ Sie reicht von 4,1 bis 10,5.
+\end_layout
+
+\begin_layout Paragraph
+Regressionsmodell ohne Ausreisser
+\end_layout
+
+\begin_layout Standard
+Die Boxplots in Abbilbung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Boxplot-der-Beschäftigten"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ zeigen die Ausreisser in den abhängigen Variablen.
+ Ausreißer sind jene Fälle die in der untersuchten Variablen einen Wert
+ außerhalb des 1,5 fachen Interquartilsabstands aufweisen (sog.
+ extreme Ausreisser).
+ Einer gängigen Praxis in der Datenauswertung folgend, habe ich im folgenden
+ diese Landkreise entfernt (sowohl für die abhängigen als auch unabhängigen
+ Variablen) und die Regressionsanalysen der Autoren wiederholt.
+ Es blieben 
+\end_layout
+
+\begin_layout Standard
+Der Regressiounsoutput ist in Abbildung 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Regressionsanalyse-aus-Papier-ohne-Ausreisser"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ dargestellt.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/Boxplot_Beschaeftigte_Textil.png
+	height 10cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Boxplot-der-Beschäftigten"
+
+\end_inset
+
+Boxplot der Beschäftigten in Textilindustrie 1831 und 1851
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering 
+\backslash
+caption{Determinants of Textile Employment without Outliers} 
+\backslash
+centering 
+\backslash
+begin{tabular}[t]{lcccccc} 
+\backslash
+toprule   & (1) & (2) & (3) & (4) & (5) & (6)
+\backslash
+
+\backslash
+ 
+\backslash
+midrule 
+\end_layout
+
+\begin_layout Plain Layout
+
+Skills 1790s & 2.195*** & 3.161*** & 2.207*** & 1.582** & 1.475** & 1.438***
+\backslash
+
+\backslash
+  & (0.556) & (0.671) & (0.570) & (0.449) & (0.557) & (0.421)
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+Wage 1760s & -2.989 & -4.102*** & -3.323 & -6.043* & -5.969* & -4.834
+\backslash
+
+\backslash
+  & (3.510) & (0.924) & (3.725) & (2.876) & (2.915) & (2.639)
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+Mkt Potential 1750 & 0.712** & 0.418 & 0.701* & 0.386 & 0.399 & 0.218
+\backslash
+
+\backslash
+  & (0.335) & (0.351) & (0.344) & (0.271) & (0.276) & (0.266)
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+Distance to Coal &  & 1.336* &  &  & -0.201 & 
+\backslash
+
+\backslash
+  &  & (0.687) &  &  & (0.773) & 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+Water Power &  &  & 0.108 &  &  & -0.753*
+\backslash
+
+\backslash
+  &  &  & (0.481) &  &  & (0.351)
+\backslash
+
+\backslash
+ 
+\backslash
+midrule Num.Obs.
+ & 32 & 32 & 32 & 32 & 32 & 32
+\backslash
+
+\backslash
+ R2 & 0.667 & 0.701 & 0.658 & 0.821 & 0.827 & 0.902
+\backslash
+
+\backslash
+ R2 Adj.
+ & 0.667 & 0.701 & 0.658 & 0.821 & 0.827 & 0.902
+\backslash
+
+\backslash
+ AIC & 105.0 & 101.1 & 106.7 & 63.7 & 61.9 & 39.3
+\backslash
+
+\backslash
+ s(X,Y) & 0.531 & 0.021 & 0.872 & 0.0554 & 0.0542 & 0.0159
+\backslash
+
+\backslash
+ 
+\backslash
+bottomrule 
+\backslash
+end{tabular}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Regressionsanalyse aus Papier (Tabelle 1) ohne Ausreisser
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Regressionsanalyse-aus-Papier-ohne-Ausreisser"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subparagraph
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Sensitivitätsanalyse
+\end_layout
+
+\begin_layout Standard
+Ziel einer Sensitivitätsanaylse ist es, zu ermitteln, welchen Einfluss die
+ Varianz der Einflussvariablen auf das Regressionsmodell haben.
+ Eine Möglichkeit solch eine Sensititätsanalyse durchzuführen ist Cross-Validati
+on (CV).
+ 
+\end_layout
+
+\begin_layout Standard
+CV ist ein einfacher Ansatz zur Schätzung der Genauigkeit und Vorhersagbarkeit
+ von Regressionsmodellen.
+ CV wird in vielen Bereichen des Maschinellen Lernens und der Regressionsmodelli
+erung angewendet.
+ Bei der hier verwendeten k-fold Cross Validaton handelt es sich um eine
+ modifizierte Version mit selbst entwickelten Programmcode, dass auch mit
+ GAMs umgehen kann.
+ Die Vorgehensweise ist simpel: in mehreren Durchgängen werden die 41 Fälle
+ in einen Trainings- und Testdatenteil aufgeteilt, mit denen jeweils die
+ Regressionsmodellierung fünf mal wiederholt wird (k=5).
+ Am Ende werden die Ergebnisse über alle Durchgänge gemittelt.
+ Als Vergleichsstatistik habe ich die die mittlere quadratische Abweichung
+ (MSE).
+ Die Ergebnisse für die beiden Regressionsmodellen sind in Tabelle 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Vergleich-der-mittleren"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ dargestellt.
+ Man sieht, dass die MSE-Werte der Cross-Validierung deutlich höher sind,
+ was grundsätzlich ein Hinweis darauf ist, dass das Regressionsmodell overfitted
+ ist.
+ Die empirischen Daten scheinen also so gut zu passen, dass sie diese hohen
+ MSE-Werte hervorbringen, eine kleine Variation der Daten aber schnell zu
+ anderen Ergebnissen führt.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Model
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Papier
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Cross-Val.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+tex1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Textiles_1831~Skills+Wage+Potential+SHP+s(X,Y)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+0.870
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+2.1389
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+tex2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Textiles_1831~Skills+Wage+Potential+Coal_Distance+SHP+s(X,Y)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+0.800
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+2.0712
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+tex3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Textiles_1831~Skills+Wage+Potential+Water_Flow+SHP+s(X,Y)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+0.864
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+2.455
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+tex5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Textiles_1851~Skills+Wage+Potential+STF+s(X,Y)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+0.1731
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+1.220
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+tex6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Textiles_1851~Skills+Wage+Potential+Coal_Distance+STF+s(X,Y)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+0.1701
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+1.434
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+tex7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Textiles_1851~Skills+Wage+Potential+Water_Flow+STF+s(X,Y)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+0.1001
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+1.121
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Vergleich-der-mittleren"
+
+\end_inset
+
+Vergleich der mittleren quadratischen Abweichung (MSE) zwischen Regressionsmodel
+l aus Papier (Table 1) und k-fold Cross-Validation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Logistische Regression
+\end_layout
+
+\begin_layout Standard
+Da die Verteilungsfunktion der absolut Beschäftigten in der Textilindustrie
+ stark rechtsschief ist, mit einigen wenigen Regionen mit sehr hoher und
+ Regionen mit vergleichsweise geringer Textilindustrie - es fehlen quasi
+ Regionen mit mittlerem Beschäftigungsniveau, stellt sich die Frage, ob
+ eine binäre Kodierung der abhängigen Variablen nicht sinnvoller wäre, d.h.
+ ob eine Klassifikation der Regionen in industrialisierte und (noch) nicht
+ industrialisierte nicht bessere Ergebnisse liefern könnte.
+ 
+\end_layout
+
+\begin_layout Standard
+Zur Überprüfung dieser Frage habe ich die Regressionsanalysen des Papiers
+ als logistische Regressionsanalyse wiederholt.
+ Hierzu wurden die Landkreise in zwei Gruppen geteilt: jene mit einer anteiligen
+ Beschäftigung von mehr als 5% in der Textilindustrie und jene bis 5% (vgl.
+ Tabelle 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Anteil-industrialisierter-Landkr"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Trotz der Erwartung, dass die Regression einen guten "Fit" hervorbringt,
+ gabe es keine signifikanten Regressionskoeffizienten.
+ Verschiedene Variationen logistischer Regressionen wurden probiert.
+ Das Ergebnis wirft Fragen auf: die Verteilung der Landkreise hinsichtlich
+ Textilbeschäftigung weist klar auf eine Gruppenbildung hin.
+ Das ein logistisches Regressionsmodell mit den gleichen Regressoren dennoch
+ keinen Einfluss auf die binäre Variable Textilbeschäftigung zeigt, deutet
+ darauf hin, dass die Regression der Autoren einen Großteil ihrer Erklärungskraf
+t aus den leichten Variationen der Landkreise mit mittlerer Textbeschäftigung
+ hervorbring.
+ Die ausführliche Analyse ist auch hier wieder im R-Skript.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1831
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1851
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Quotes gld
+\end_inset
+
+industrialisiert
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Quotes gld
+\end_inset
+
+(noch) nicht industrialisiert
+\begin_inset Quotes grd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+28
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+32
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+(n=41)
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Anteil-industrialisierter-Landkr"
+
+\end_inset
+
+Anteil industrialisierter Landkreise 1831 und 1851
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Gerechnet wurden nicht nur die verschiedenen Kombinationen von abhängigen
+ Variablen, sondern auch traditionelle, ohne Korrektur des Geosplines, wie
+ auch Varianten mit Korrektur.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Kritisch-hermeneutische Analyse
+\end_layout
+
+\begin_layout Paragraph
+Wahl des Regressionsmodells
+\end_layout
+
+\begin_layout Standard
+Auffallend ist wie viel Stellenwert die Erklärung des Regressionsmodells
+ einnimmt.
+ Vermutet werden kann, dass die Verwendung dieser speziellen Regressionsform
+ eine besondere Rolle im Reviewprozess spielte.
+ So wäre es denkbar, dass eine erste Version des Papiers noch multiple Regressio
+nen enthielt - die Modelfitergebnisse waren ja durchaus beeindruckend.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Siehe die Ergebnisse der Regressionsanalyse ohne Geoplines im Abschnitt
+ 
+\family typewriter
+\size scriptsize
+Regressionen ohne Geodaten
+\family default
+\size default
+ in 
+\family typewriter
+\size scriptsize
+regressions.R
+\end_layout
+
+\end_inset
+
+ Die Begutachter dann aber die Verwendung von Landkreisen als Unterschuchungsein
+heit aufgrund der fehlenden Trennschärfe der Fälle kritisierten.
+ So beginnen die Autoren den, bereits erwähnten auffallend groß ausgefallenen
+ Appendix über die Semiparametrische räumliche Regression: "Regressions
+ with spatial data frequently generate spuriously large t-statistics, .."
+ (S.
+ 85).
+ Es wäre durchaus denkbar, dass dieser Satz direkt aus dem ersten Gutachten
+ stammt.
+\end_layout
+
+\begin_layout Standard
+Eine alternative Erklärung wäre aber auch, dass die Autoren von Anfang diese
+ Art der Regression verwendeten und die Gutachter eine bessere Erklärung
+ dieses - durchaus Immerhin handelt es sich um ein durchaus weit verbreitetes
+ Regressionsmodell, das in der Wirtschaftsgeografie und Regionalökonomie
+ Verwendung findet.
+ Darauf wiederum würde folgender Satz hindeuten: "Despite their elegance,
+ simplicity, and power, semiparametric regressions never took off in eco-
+ nomics." (S.
+ 62f.)
+\end_layout
+
+\begin_layout Paragraph
+Nicht auffindbare Referenz
+\end_layout
+
+\begin_layout Standard
+Die wichtigsten beiden Variablen sind die Beschäftigung in der Textilindustrie
+ für 1831 und 1851.
+ Die Autoren schreiben "Textile employment in 1831 is from Marshall (1833,
+ 10–11)." (S.
+ 89).
+ Nun führte eine Nachverfolgung der Quelle allerdings dazu, dass an beschriebene
+r Stelle keine Textilbeschäftigungsdaten gefunden werden konnten.
+ Das Buch besteht aus zwei Teilen, jeweils mit eigener Seitenzahlnumerierung.
+ Somit gibt es zwei mal die Seiten 10-11.
+ Ein Screenshot der beiden Seiten befindet sich im Anhang auf Seite 
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "Marshall_screenshot"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Der erste Teil enthält zwar Beschäftigungsdaten auf Landkreisniveau für
+ 1821 und 1831
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Der zweite Teil des Buches beginnt auf Seite 116 und beinhaltet detaillierte
+ Steuer- und Zolleinnhamen für verschieden Waren.
+\end_layout
+
+\end_inset
+
+, jedoch keine Daten für die Textilindustrie oder ähnlicher Industrien.
+ 
+\end_layout
+
+\begin_layout Standard
+Das Buch wurde mittels Python Skript von Google Books herunter geladen und
+ indiziert, so dass in dem daraus resultierenden PDF nach Schlagwörtern
+ gesucht werden konnte und (eingeschränkt) mittels Python Skript einzelne
+ Spalten und Zeilen aus dem Buch extrahiert und verarbeitet wurden.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Das PDF kann unter 
+\begin_inset CommandInset href
+LatexCommand href
+name "Google Drive"
+target "https://drive.google.com/drive/folders/1sGs4IWHfNkCZKN4-0OcHi9Urw6x40iPj"
+literal "false"
+
+\end_inset
+
+ heruntergeladen werden.
+ Da es sich um copyright-sensitives Material handelt, kann ich es nicht
+ auf Github hosten, sondern stelle es zeitlich begrenzt unter dieser URL
+ zur Verfügung.
+ 
+\end_layout
+
+\end_inset
+
+ Im Ergebnis konnte ich keine Hinweise finden, wie die im Datensatz verwendeten
+ Daten für die Textilindustrie ermittelt wurden.
+\end_layout
+
+\begin_layout Standard
+Auch an anderen Stellen im Buch konnte kein Hinweis auf Textilbeschäftigungsdate
+n gefunden werden.
+ Einen Verweis darauf, wo die Textilbeschäftigungsdaten für 1851 kommen,
+ gibt es im ganzen Papier nicht.
+ Eine E-mail an einen der Co-Autoren ergab auch keine Antwort.
+ Auch konnte keine Vorabversion (working paper) des Papiers im Internet
+ gefunden werden, die ja evtl.
+ eine andere Referenz enthalten haben könnte.
+\end_layout
+
+\begin_layout Section
+Fazit
+\end_layout
+
+\begin_layout Paragraph*
+Resüme
+\end_layout
+
+\begin_layout Standard
+Warum die industrielle Revolution im 18.
+ Jahrhundert in England begann, kann auch das Papier nicht erklären.
+ Immerhin liefert es einige interessante Erkenntnisse über die Entstehung
+ der Textilindustrie während der beginnenden Industrialisierung in England.
+ Die Verwendung von regionalen Daten auf Landkreisniveau ist pragmatisch
+ aber auch mit Problemen behaftet.
+ 
+\end_layout
+
+\begin_layout Standard
+Resümieriend muss ich feststellen, dass es sich um ein interessantes Papier
+ handelt, dass (neben den Forschungsergebnissen) auch wissenschaftssoziologisch
+ sehr interessant ist.
+ Es wäre interessant ein Experteninterview mit den Autoren zu führen, um
+ den Entstehungsprozess besser zu verstehen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "citation"
+options "bibtotoc,plainnat"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+appendix
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Anhang}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Countie Abkürzungen}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.5]{
+\backslash
+string"figures/counties_code.png}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="15" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Code
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Code
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Code
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Name
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+BED
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bedfordshire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+HNT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Huntingdonshire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NHP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Northamptonshire
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+BER
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Berkshire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+HRF
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Herefordshire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SMS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Somerset
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+BUC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Buckinghamshire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+HTF
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hertfordshire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+STF
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Staordshire
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CHE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cheshire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+KNT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kent
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SUR
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Surrey
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CMB
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cambridgeshire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LNC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Leicestershire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SUS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sussex
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CNW
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cornwall
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MSX
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Middlesex
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WML
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Westmorland
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CUM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cumberland
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NHB
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Northumberland
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WRC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Worcestershire
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DRB
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Derbyshire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NHP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Northamptonshire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WRW
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Warwickshire
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DRH
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Durham
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NOT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nottinghamshire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WTS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wiltshire
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DRS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dorset
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NRF
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Norfolk
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+YER
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yorkshire.East
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DVN
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Devon
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OXD
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Oxfordshire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+YNR
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yorkshire.North
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ESE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Essex
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RTL
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rutland
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+YWR
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yorkshire.West
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GLC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gloucestershire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SFF
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Suffolk
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+HMP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hampshire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SHP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Shropshire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Variablenbeschreibung}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="14" columns="8">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="5cm">
+<column alignment="center" valignment="top" width="5cm">
+<column alignment="center" valignment="top" width="2.5cm">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Variablen
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Beschreibung
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bedeutung
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Min
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Max
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mean
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Outlier
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+Textile_1831
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anteil der männlichen Beschäftigten >20 Jahre in der Textilindustrie 1831
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+abhängige Variable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.1 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size scriptsize
+Textile_1851
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anteil der männlichen Beschäftigten 20-29 Jahre in der Textilindustrie 1851
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+abhängige Variable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.1529
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25.5959
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.2031
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size small
+Potential
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Marktpotential, d.h.
+ Summe der aggregierten Einkommen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+unabhängige Variable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+661
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+126.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size small
+population
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bevölkerung 1750???
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+unabhängige Variable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19601
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1373400
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+320428
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size small
+Wage
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Löhne im Agrarbereich 1760.
+ Logaritmierte Version der Variablen 
+\family typewriter
+\size scriptsize
+wage.1767
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+logarithmiert
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+unabhängige Variable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+72
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+117
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+85.24
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size small
+skills
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fähigkeiten in der Metallvearbeitung
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+unabhängige Variable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+23.31
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+117.26
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+54.12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size small
+Coal_Distance
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\shape slanted
+\begin_inset Quotes gld
+\end_inset
+
+...
+ distance of the center of each county to the nearest county with a coal
+ field.
+ Counties with a coalfield were assigned a distance of 20 km.
+\begin_inset Quotes grd
+\end_inset
+
+ 
+\shape default
+(S.
+ 89)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+unabhängige Variable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+197
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+71.15
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size small
+Water_Flow
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\shape italic
+\begin_inset Quotes gld
+\end_inset
+
+(...) the area that drains into it (...).
+ Each county is assigned a value equal to the 98th percentile of the flow
+ across its squares.
+\begin_inset Quotes grd
+\end_inset
+
+
+\shape default
+ (S.
+ 89)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+unabhängige Variable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+110
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size small
+SHP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+dummy Variable (true for Shropshire (SHP))
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+dummy Variable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Density
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bevölkerungsdichte
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+logarithmiert
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+27.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+757.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+49 (Median)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Apprentice_Cost
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+28
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15 (Median)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Apprentice_Wage
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+subsection{Fehlende Quelle für Textilindustriedaten}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Marshall_screenshot"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename figures/Marshall_Seite10.pdf
+	width 15cm
+	rotateAngle 90
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Graphics
+	filename figures/Marshall_Seite11.pdf
+	width 15cm
+	rotateAngle 90
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename figures/Eidesstattliche Erklärung.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
