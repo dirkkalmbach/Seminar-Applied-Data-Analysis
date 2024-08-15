@@ -87,6 +87,7 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\bullet 0 0 7 -1
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -323,16 +324,162 @@ ogramm R-Studio.
  .
 \end_layout
 
-\begin_layout Subparagraph*
+\begin_layout Paragraph
+Inhalt und Kernaussagen des Papiers
+\end_layout
+
+\begin_layout Standard
+Das Papier beschäftigt sich auf 26 Kernseiten mit der Entstehung von Industriali
+sierung im England des 18.
+ Jahrhunderts.
+ Nach Aussage der Autoren handelt es sich dabei um die erste regressionsanalytis
+che Untersuchung der Entstehung von Industrialisierung.
+ Als Indikator für Industrialsierung wählen die Autoren den Anteil der Beschäfti
+gten in der Textilindustrie in den Jahren 1831 und 1851.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Censusdaten in England wurden gemäß dem 
+\begin_inset CommandInset href
+LatexCommand href
+name "Nationalarchiv"
+target "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/census-records/"
+literal "false"
+
+\end_inset
+
+ beginnend in 1841 bis 1921 alle 10 Jahre jeweils im 2.
+ Quartal erhoben.
+ Kleinere, weniger ausführliche Zensuse gab es auch früher.
+ Eine weitere ergiebige Quelle für Daten auf Landkreisebene ist 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "Marshall1833"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Untersuchungseinheiten sind dabei 41 Landkreise Englands
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Schottland und Wales werden somit nicht berücksichtigt, was die Aussagefähigkeit
+ m.E.
+ nach einschränkt.
+\end_layout
+
+\end_inset
+
+ hinsichtlich ökonomischer Daten wie Beschäftigung, Löhne, Rohstoffe, etc.
+ auf Landkreisebene.
+ 
+\end_layout
+
+\begin_layout Standard
+Die Kernaussagen sind:
+\end_layout
+
+\begin_layout Itemize
+Industrialisierung begann in Regionen mit einerseits niedriegem Lohnniveau,
+ andererseits vergleichsweise hoher Dichte an Handwerkern in Metallberufen.
+\end_layout
+
+\begin_layout Itemize
+Das Vorhandensein von Banken, Alphabetismus, sowie die Räumliche Nähe zu
+ Kohlevorkommen hatten nur einen geringen Anteil auf die Industrialisierung.
+\end_layout
+
+\begin_layout Itemize
+Entgegen herkömmlicher Meinung stiegen die Reallöhne während der Industrialisier
+ung im weiter vorangeschrittenem, industrialisierendem Norden und sanken
+ im ehemals prosperierenden Süden Englands.
+\end_layout
+
+\begin_layout Standard
+Im Kapitel 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Kritisch-hermeneutische-Analyse"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ werde ich dabei noch ausführlicher auf den Inhalt des Papiers eingehen.
+\end_layout
+
+\begin_layout Paragraph
 Motivation
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
+Meine Motivation das Papier kritisch zu analysieren, basierte auf der Verwunderu
+ng über die sehr hohen R2-Werte der Regressionsmodelle der Autoren.
+ Werte von 0,7 bis 0,9 sind m.E.
+ nach bei regionalen Daten eher selten, v.a.
+ wenn man Landkreise als Fälle verwendet, die sich zwar administrativ, nicht
+ aber für gewöhnlich methodisch, d.h.
+ hinsichtlich der Regressoren klar voneinander abtrennen lassen.
+\begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-hohe R2 Werte die mich stutzig machten
+Polisitsch-administrativ sind die Landkreise zwar klar anhand der Landkreisgrenz
+en unterscheidbar, nicht aber zwangsläufig hinsichtlich wirtschaftlich oder
+ sozialer Indikatoren, die ich einem bestimmten Landkreis zuordne: nur weil
+ ein Arbeiter in ...
+ wohnt, muss es nicht heißen, dass er z.B.
+ nicht in ...
+ arbeiten könnte; oder eine Fabrik in ...
+ nicht Kohle aus ....
+ bekommen kann.
+ 
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Auch die Verwendung eines räumlichen Splines im Regressionsmodell überzeugte
+ mich nicht wirklich und erweckte in mir eher den Eintrag die Analyse 
+\begin_inset Quotes gld
+\end_inset
+
+methodisch aufzuwerten
+\begin_inset Quotes grd
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Dennoch war ich zwiegespalten: der Volkswirt in mir begrüßte die Einfachheit
+ und Eleganz des Erklärungsmodells, während der Soziologe in mir sich weigerte,
+ einen solch komplexen sozio-ökonomisch-technischen sich über einen Zeitraum
+ entwickelntden Prozess wie die Industralisierung mit einer vgl.
+ einfachen Regression zu erklären.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Meine erste akademische Ausbildung war ein Studium in Ökonomie, dem ich
+ dann Jahre später ein Fernstudium in Soziologie an der Fernuni anschloss
+ - dies nur zur Einordnung des eben Gesagten.
 \end_layout
 
 \end_inset
@@ -340,7 +487,92 @@ hohe R2 Werte die mich stutzig machten
 
 \end_layout
 
-\begin_layout Subparagraph*
+\begin_layout Standard
+Der ausschlaggebende Grund für Entscheidung sich kritisch mit dem Papier
+ zu beschäftigen war aber eine nicht-auffindbare Quelle bei der Nachverfolgung
+ der verwendeten Datenquellen.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Wie sich später herausstellte, existierte die Quelle zwar, die Datenbeschreibung
+ im Papier war aber so irreführend, so dass ich an besagter Stelle, keine
+ Daten finden konnte.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Überblick über die Seminararbeit 
+\end_layout
+
+\begin_layout Standard
+Kapitel 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Kritisch-theoretische-Analyse"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ liefert eine theoretische Analyse des Papiers.
+ Leitfrage des Kapitels ist: 
+\shape italic
+erklärt das Papier Industrialisierung?
+\shape default
+ oder anders gesagt: es geht um die Validität der Hauptaussage(n).
+\end_layout
+
+\begin_layout Standard
+Kapitel 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Kritisch-emprische-Analyse"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ liefert eine Datenanalyse des von den Autoren dankenderweise bereitgestellten
+ Datenmaterials.
+ Leitfrage des Kapitels ist: 
+\shape italic
+sind die statistischen Verfahren geeignet, Industrialisierung zu erklären?
+\shape default
+ oder anders gesagt: es geht um die Reliabilität der Hauptaussage(n).
+\end_layout
+
+\begin_layout Standard
+Kapitel 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Kritisch-hermeneutische-Analyse"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ versucht in hermeneutischer Weise Inkonsistenzen in dem Papier nachzugehen.
+ Widersprechen sich Aussagen oder gibt es Ungereimtheiten.
+ Leitfrage des Kapitels ist: 
+\shape italic
+sind die Ausführungen im Papier als Ganzes konsistent?
+\end_layout
+
+\begin_layout Standard
+Einen Schwerpunkt bildet dabei die emprische Auseinandersetzung mit dem
+ beigefügten Datenmaterial und der kritischen Überprüfung der statistischen
+ Auswertungen.
+\end_layout
+
+\begin_layout Paragraph
 Github
 \end_layout
 
@@ -356,31 +588,48 @@ target "https://github.com/dirkkalmbach/Seminar-Applied-Data-Analysis.git"
  einsehbar.
  An ausgewählten Stellen in der Seminararbeit wird darüber hinaus in Fußnoten
  auf die konkrete Stelle im 
-\shape italic
+\family typewriter
+\size scriptsize
 R-Skript
-\shape default
- hingewiesen um ein Auffinden zu erleichtern und die statistischen Erklärungen
- in der Seminararbeit möglichst knapp halten zu könnnen.
+\family default
+\size default
+ hingewiesen, um ein Auffinden zu erleichtern und die statistischen Erklärungen
+ in der Seminararbeit möglichst knapp zu halten.
  
 \end_layout
 
 \begin_layout Section
-Kritische Analyse des Papiers
+Kritisch-theoretische Analyse des Papiers 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Kritisch-theoretische-Analyse"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
-Kritisch-theoretische Analyse
-\end_layout
-
-\begin_layout Subsubsection
 Das theoretische Modell
 \end_layout
 
 \begin_layout Standard
-Ziel des Papers war es die Entstehung von Industrialisierung zu erklären.
+Referenz 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "Sator2024"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Das Papier möchte die Entstehung von Industrialisierung erklären.
  Industrialisierung ist nicht direkt messbar.
- Es handelt sich um ein theoretisches Konstrukt (Backhaus), das zunächst
- durch geeignete Indikatoren messbar gemacht werden muss.
+ Es handelt sich um ein theoretisches Konstrukt, das zunächst durch geeignete
+ Indikatoren messbar gemacht werden muss.
  Die Autoren wählen als Indikator die Beschäftigung in der Textilindustrie.
  
 \end_layout
@@ -394,7 +643,7 @@ Es wäre also konsequenter zu reklamieren, dass die Autoren die Entstehung
 
 \begin_layout Standard
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Ist Industrialisierung überhaupt monokausal.
@@ -408,7 +657,7 @@ Ist Industrialisierung überhaupt monokausal.
 
 \end_layout
 
-\begin_layout Subparagraph*
+\begin_layout Paragraph*
 Industrialisierung schon im 16.
  Jahrhundert? 
 \end_layout
@@ -452,11 +701,104 @@ Aus Zeit- und Platzgründen im Rahmen dieser Seminararbeit zwar nicht möglich,
 
 \end_layout
 
-\begin_layout Paragraph
-Textilindustrie als guter Indikator für Industrialisierung? 
+\begin_layout Subsubsection
+Enstehungsgründe für Industrialisierung
 \end_layout
 
-\begin_layout Subparagraph
+\begin_layout Standard
+Folgende Gründe werden immer wieder genannt, als mögliche Erklärung für
+ die Entstehung von Industrialisierung und warum diese zunächst in England
+ begann:
+\end_layout
+
+\begin_layout Itemize
+Holzmangel und ein Überfluss an geeigneten Kohlevorkommen 
+\end_layout
+
+\begin_layout Itemize
+Großbritannien hatte sog.
+ „wet coal“, d.h.
+ Kohle die nah an der Erdoberfläche lagert.
+ Diese konnte einerseits kostengünstig geförder werden.
+ Andererseits wurden Minen häufig überflutet und man musste eine Methode
+ finden, das Wasser aus den Minen zu bekommen, was zur Erfindung der Dampfmaschi
+ne führte
+\end_layout
+
+\begin_layout Itemize
+eine im Vergleich zu anderen europäischen Ländern geringer Einfluss der
+ Monarchie auf die Gesellschaft
+\end_layout
+
+\begin_layout Itemize
+Staatliche Unterstützung für Geschäftsprojekte 
+\end_layout
+
+\begin_layout Itemize
+eine starke Marine zum Schutz der Handelsschiffe Billige Baumwolle, die
+ von in Nordamerika versklavten Afrikanern produziert wurde 
+\end_layout
+
+\begin_layout Itemize
+Profite aus dem transatlantischen Sklavenhandel als Kapitalquelle für Investitio
+nen
+\end_layout
+
+\begin_layout Itemize
+ein dem Kapitalismus förderlichen Wertesystem wie es Max Weber in seiner
+ 
+\shape slanted
+protestantischen Ethik
+\shape default
+ beschreibt und einer daraus reslultierenden geschäftsinteressierten Elite
+ 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Im übrigen werden als Gründe, warum Industrialisierung nicht in China begann,
+ trotz der kulturellen, technischen Überlegenheit Chinas, der Größe des
+ chinesischen Marktes und dem Vorhandensein eines Wasserkanalsystems, das
+ alle größeren chinesischen Städte verbindet, über dem aktiv Handel betrieben
+ wurde, und dass schon seit Jahrhunderten vor dem des englischen Kanalsystems
+ existierte, folgende mögliche Erklärungen genannt:
+\end_layout
+
+\begin_layout Enumerate
+Chinas Kohlevorkommen waren weit entfernt von den industriellen Zentren.
+ Außerdem war Chinas Kohle, da weiter im Boden gelagert, schwer zu fördern
+ als die brititsche Kohle.
+\end_layout
+
+\begin_layout Enumerate
+Die stark ansteigende chinesiche Bevölkerung und der daraus resultierenden
+ Verfügbarkeit billiger Arbeitskräfte, die eine Subsitution durch Maschinen
+ weniger notwendig machte.
+\end_layout
+
+\begin_layout Enumerate
+Die Konfuzianische Kultur, die gesellschaftliche Stabilität höher bewertet
+ als Veränderung und Fortschritt.
+\end_layout
+
+\begin_layout Enumerate
+Hohe Verteidigungsausgaben aufgrund der großen West- und Nordgrenze Chinas.
+\end_layout
+
+\begin_layout Enumerate
+Eine zunehmende Abschottung Chinas gegenüber der Welt in der Quing-Dynastie.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Textilindustrie als geeigneter Indikator für Industrialisierung? 
+\end_layout
+
+\begin_layout Paragraph
 Einleitung
 \end_layout
 
@@ -466,7 +808,7 @@ Ich werde im folgenden zeigen, dass der Anteil der Beschäftigten in der
 ierungsfortschritts ist.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Anteil der Beschäftigten in der Textilbranche ist rückläufig
 \end_layout
 
@@ -604,38 +946,153 @@ e relativ zu anderen Branchen der Industrialisierung eingesetzt hat oder
 \end_layout
 
 \begin_layout Standard
-Schaut man sich die geografische Verteilung der Counties an (Abbildung 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Counties-mit-steigendem-Anteil"
-
-\end_inset
-
-), überrascht, dass es v.a.
+Schaut man sich die geografische Verteilung der Counties an überrascht,
+ dass es v.a.
  Counties im Süden und Osten sind - jene Regionen also in denen die Industrialis
 ierung gemeinhin später begonnen hat
-\begin_inset Graphics
-	filename figures/counties_with_textile_increase.png
-	height 8cm
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subparagraph
-Schlussfolgerung
 \end_layout
 
 \begin_layout Subsection
-Kritisch-emprische Analyse
-\end_layout
-
-\begin_layout Subsubsection
-Explorative Datenanalyse (EDA) 
+Alternative theoretische Herangehensweise
 \end_layout
 
 \begin_layout Paragraph*
+Einleitung
+\end_layout
+
+\begin_layout Standard
+Die Vielfalt und Unübersichtlichkeit an möglichen Erklärungen liegt nahe
+ auf, abstraktere Erklärkonzepte zurückzugreifen.
+ Ein mögliches Erklärungsmodell wäre im Rahmen eines systemtheoretischen
+ Evolutionsverständnis Industrialisierung als zunehmende Ausdifferenzierung
+ des Wirtschaftssystem in einer funktional differenzierten Gesellschaft
+ zu sehen.
+\end_layout
+
+\begin_layout Paragraph*
+Evolution
+\end_layout
+
+\begin_layout Standard
+Evolution besteht aus Variation, Selektion und Stabilisierung.
+ In biologischen Systemen beruht Variation auf Zufall, in einem sozio-ökonomisch
+en System kann Variation auch mit Innovation gleichgesetzt werden.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\shape slanted
+"Evolutionäre Veränderungen des Wirtschaftssystems als ganzem ergeben sich,
+ so die systemtheoretische Vorstellung, wenn die positive Selektion einer
+ neuen Variation in der Form der kommunikativen Verständigung über die Zuordnung
+ knapper Güter zu einer Systemdifferenzierung führt.
+ Die innere Differenzierung des Wirtschaftssystems ist das Ergebnis der
+ Reintegration des Variations- und Selektionsmechanismus, wenn sich das
+ System in einer den neuen Umweltanforderungen gerechten Struktur stabilisiert
+ hat."
+\shape default
+ (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "Lierl2004"
+literal "false"
+
+\end_inset
+
+, S.
+ 11) 
+\end_layout
+
+\begin_layout Paragraph*
+Empirische Überprüfbarkeit
+\end_layout
+
+\begin_layout Standard
+Meine These wäre jetzt, Industrialisierung als zeitliche Phase der vermehrt
+ zunehmenden Verselbständigung des Kommunikationsmediums Geld aufzufassen.
+ Diese kommunikationstheoretische Betrachtung von Industrialisierung hätte
+ denn Vorteil der Meßbarkeit: Textdokumente des 17., 18.
+ und 19.
+ Jahrhunderts sind sowohl für England als auch für andere Länder wie Niederlande
+, Frankreich, Deutschland, USA etc.
+ vorhanden und können vergleichsweise einfach mittels NLP auch in großen
+ Mengen analysiert werden.
+\end_layout
+
+\begin_layout Standard
+Da vermutet werden kann, das allgemein Kommunikation häufig bereits vor
+ sozialer oder ökonomischer Handlung/Ereignisse sichtbar ist, könnte folglich
+ Kommunikation als Frühindikator für Industrialisierung dienen und aufgrund
+ der Verfügbarkeit von Daten (Textdokumente), eine Ländervergleichsanalyse
+ durchgeführt werden.
+ Als Untersuchungseinheit wären somit Länder denkbar, die ja an sich aufgrund
+ der Sprache abgeschlossene Kommunikationsräume darstellen.
+ 
+\end_layout
+
+\begin_layout Standard
+Mein Vorschlag wärew somit, eine Analyse von historischen Textdokumenten
+ zur Untersuchung der unterschiedlichen Entwicklung von Industrialisierung
+ in verschiedenen Ländern durchzuführen.
+ Diese könnte grob folgendermaßen aussehen: nachdem der Untersuchungszeitraum
+ festgelegt wurde (z.B.
+ 1700 bis 1850) in einem ersten Schritt Dokumente aus dieser Zeit zu sichten
+ und Codes herauszuarbeiten, die als Indikator für Gewinnaussichten in Frage
+ kämen.
+ Dies könnte in einer Codierung von Texten und Offen bliebe noch, wie Industrial
+isierung gemessen werden sollte.
+ Eine Konzentration auf eine einzige Variable wie Textilbeschäftigung halte
+ ich für wenig zielführend.
+ Stattdessen sollte ein Faktor entwickelt werden, der eine Vielzahl an Variablen
+ beinhaltet, an der man die Sichtbarkeit von Industrialisierung abtragen
+ kann, um der Komplexheit des Industrialisierungsphänomens Rechnung zu tragen.
+ Idealerweise wäre ein solcher Faktor als Zeitreihe konstruierbar.
+ Die im Codierungsschritt ermittelte zeitliche Häufigkeit des Auftretens
+ von Schlüsselbegriffen in Texten wäre dann die unabhängige Variable.
+ 
+\end_layout
+
+\begin_layout Standard
+Leitfragen wären dann u.a.: 
+\end_layout
+
+\begin_layout Itemize
+Gibt es kausale Zusammenhänge zwischen bestimmten Kommunikationsbegriffen
+ und Industrialiserung? 
+\end_layout
+
+\begin_layout Itemize
+Lässt sich Industrialisierung als eine Phase "radikaler" Ausdifferenzierung
+ des Wirtschaftssystem auffassen? Und wenn ja, bringt dies einen Erkenntnisgewin
+n zur Erklärung von Industrialisierung? 
+\end_layout
+
+\begin_layout Itemize
+Warum entstand Industrialisierung zuerst in England?
+\end_layout
+
+\begin_layout Itemize
+Wie unterscheiden sich andere Länder hinsichtlich gesellschaftlicher Kommunikati
+on? 
+\end_layout
+
+\begin_layout Section
+Kritisch-emprische Analyse
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Kritisch-emprische-Analyse"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Explorative Datenanalyse (EDA) 
+\end_layout
+
+\begin_layout Subsubsection*
 Ungenauigkeiten bei der Data Preperation
 \end_layout
 
@@ -653,7 +1110,7 @@ england_map.Rda
 Die Variablen für die Bevölkerungszahlen für 1761 und 1831 bestehen aus
  unterschiedlichen Datentypen.
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Itemize
 Vgl.
@@ -756,7 +1213,7 @@ ich vorgegangen sind.
  ist, kann eigentlich nicht vorkommen.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Absolute Beschäftigung in der Textilindustrie
 \end_layout
 
@@ -916,7 +1373,7 @@ Landkreise mit höchster absoluter Beschäftigung im Textilsektor
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -996,7 +1453,7 @@ Landkreise mit niedrigster absoluter Beschäftigung im Textilsektor
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -1166,11 +1623,11 @@ gsannahme ausschließen
  kann durchaus zu einer Verzerrung des Schätzers führen.
 \end_layout
 
-\begin_layout Subsubsection
-Regressionsmodelle
+\begin_layout Subsection
+Analyse der Regressionsmodelle
 \end_layout
 
-\begin_layout Subparagraph*
+\begin_layout Paragraph*
 Einige allgemeine Anmerkungen zu den Modellen
 \end_layout
 
@@ -1195,7 +1652,7 @@ Was übrigens auch in dem Regressionsoutput im Papier fehlt, sind die Daten
  Sie reicht von 4,1 bis 10,5.
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection
 Regressionsmodell ohne Ausreisser
 \end_layout
 
@@ -1271,6 +1728,7 @@ Boxplot der Beschäftigten in Textilindustrie 1831 und 1851
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Float table
 wide false
 sideways false
@@ -1423,8 +1881,612 @@ name "tab:Regressionsanalyse-aus-Papier-ohne-Ausreisser"
 
 \end_layout
 
-\begin_layout Subparagraph
-\begin_inset Newpage pagebreak
+\begin_layout Subsubsection
+Analyse des räumlichen Aspekts des Regressionsmodells
+\end_layout
+
+\begin_layout Paragraph
+Visualisierung des Geosplines
+\end_layout
+
+\begin_layout Standard
+Den Versuch einer Visualisierung des räumlichen Splines zeigt Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Visualisierung-des-Geosplines"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Hierbei wurden die in der Regression aus Tabelle 1 im Papier geschätzten
+ Werte für die Variablen X und Y, also die Koordinaten der einzelnen Landkreise
+ über die Landkarte von England gelegt.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+X und Y sind die Längen- und Breitengrade, die als Funktion in die Regression
+ aufgenommen worden und deren Schätzwert im Gegensatz zu den Regressionkoeffizie
+nten als Funktion aufgefasst werden müssen.
+ 
+\end_layout
+
+\end_inset
+
+ Die schwarzen Linien zeigen dabei die Schätzfunktion, die roten und grünen
+ Linien jeweils die untere und obere Standardabweichung (
+\begin_inset Formula $\pm1s.e.)$
+\end_inset
+
+.
+ Man bekommt eine ungefähre Vorstellung wie das Modell die Daten räumlich
+ trennt.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Hierbei wurden der Ausdruck des Geosplines (vgl.
+ 
+\family typewriter
+\size normal
+Regression.R
+\family default
+\size default
+) über ein Bild von Großbritannien gelegt und die Koordinaten angepasst.
+ Da dies per Hand in Photoshop erfolgte, sind leichte räumliche Abweichungen
+ möglich.
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/Geospline.png
+	width 8cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Visualisierung des Geosplines
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Visualisierung-des-Geosplines"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Vergleich der Fits 
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Wie 
+\begin_inset Quotes gld
+\end_inset
+
+schlägt
+\begin_inset Quotes grd
+\end_inset
+
+ sich eigentlich ein einfaches multiples Regressionsmodell ohne Geodaten
+ mit dem (vergleichsweise schwer zu interpretierenden) additiven Modell?
+\shape default
+ Hierzu habe ich für die sechs Modellvarianten der Regression aus Tabelle
+ 1 im Papier ein Regression gerechnet.
+ Der Vergleich der Model-Fit Werte überrascht wie Tabelle 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Vergleich-der-Modelfits"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ zeigt.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Vgl.
+ 
+\begin_inset Quotes gld
+\end_inset
+
+Tabelle 1 aus Papier
+\begin_inset Quotes grd
+\end_inset
+
+ und 
+\begin_inset Quotes gld
+\end_inset
+
+Regr.
+ aus Tabelle 1 ohne Geodaten
+\begin_inset Quotes grd
+\end_inset
+
+ in 
+\family typewriter
+regression.R
+\end_layout
+
+\end_inset
+
+ Wie man sieht, sind die die Werte für die ersten 3 Modelle, also den Modellen,
+ die die Textilbeschäftigung von 1831 prognostizieren, nahezu identisch.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Variante
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+additives Modell
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+simples Modell
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+adj.
+
+\size default
+ R2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+adj.
+
+\size default
+ R2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AIC
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.684
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+131.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.655
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+131.4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.695
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+130.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.647
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+133.2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.676
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+132.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.652
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+132.5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.813
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+88.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.613
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+110.8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.810
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+89.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.603
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+112.6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.865
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+74.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.602
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+112.7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Vergleich der Modelfits zwischen Regression mit und ohne Geodaten
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Vergleich-der-Modelfits"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
 
@@ -1448,15 +2510,15 @@ CV ist ein einfacher Ansatz zur Schätzung der Genauigkeit und Vorhersagbarkeit
  CV wird in vielen Bereichen des Maschinellen Lernens und der Regressionsmodelli
 erung angewendet.
  Bei der hier verwendeten k-fold Cross Validaton handelt es sich um eine
- modifizierte Version mit selbst entwickelten Programmcode, dass auch mit
- GAMs umgehen kann.
+ modifizierte Version mit teils selbst entwickelten Programmcode, dass auch
+ mit GAMs umgehen kann.
  Die Vorgehensweise ist simpel: in mehreren Durchgängen werden die 41 Fälle
  in einen Trainings- und Testdatenteil aufgeteilt, mit denen jeweils die
  Regressionsmodellierung fünf mal wiederholt wird (k=5).
  Am Ende werden die Ergebnisse über alle Durchgänge gemittelt.
- Als Vergleichsstatistik habe ich die die mittlere quadratische Abweichung
+ Als Vergleichsstatistik wählte ich die die mittlere quadratische Abweichung
  (MSE).
- Die Ergebnisse für die beiden Regressionsmodellen sind in Tabelle 
+ Die Ergebnisse für die beiden Regressionsmodelle sind in Tabelle 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Vergleich-der-mittleren"
@@ -1468,8 +2530,20 @@ noprefix "false"
 
  dargestellt.
  Man sieht, dass die MSE-Werte der Cross-Validierung deutlich höher sind,
- was grundsätzlich ein Hinweis darauf ist, dass das Regressionsmodell overfitted
- ist.
+ was grundsätzlich ein Hinweis darauf ist, dass das Regressionsmodell 
+\begin_inset Quotes gld
+\end_inset
+
+overfitted
+\begin_inset Quotes grd
+\end_inset
+
+.
+ Solch ein Regressionsmodell entsteht mormalerweise beim Trainieren großer
+ Datensätze, bei denen die Regressionsgerade sich immer perfekter an die
+ Traningsdaten anpasst, hinsichtlich neuer Fälle (Testdaten) die zu erklärende
+ Variable aber nicht prognostizieren kann.
+ ...
  Die empirischen Daten scheinen also so gut zu passen, dass sie diese hohen
  MSE-Werte hervorbringen, eine kleine Variation der Daten aber schnell zu
  anderen Ergebnissen führt.
@@ -1483,9 +2557,10 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="4">
-<features tabularvalignment="middle">
+<lyxtabular version="3" rows="7" columns="5">
+<features booktabs="true" tabularvalignment="middle">
 <column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
 <column alignment="left" valignment="top">
 <column alignment="left" valignment="top">
 <column alignment="left" valignment="top">
@@ -1521,13 +2596,24 @@ Papier
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size small
-Cross-Val.
+CV
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+CV ohne Geospline
 \end_layout
 
 \end_inset
@@ -1550,7 +2636,7 @@ tex1
 
 \begin_layout Plain Layout
 
-\size small
+\size scriptsize
 Textiles_1831~Skills+Wage+Potential+SHP+s(X,Y)
 \end_layout
 
@@ -1567,13 +2653,24 @@ Textiles_1831~Skills+Wage+Potential+SHP+s(X,Y)
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size small
-2.1389
+2.139
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+1.885
 \end_layout
 
 \end_inset
@@ -1596,7 +2693,7 @@ tex2
 
 \begin_layout Plain Layout
 
-\size small
+\size scriptsize
 Textiles_1831~Skills+Wage+Potential+Coal_Distance+SHP+s(X,Y)
 \end_layout
 
@@ -1613,13 +2710,24 @@ Textiles_1831~Skills+Wage+Potential+Coal_Distance+SHP+s(X,Y)
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size small
-2.0712
+2.071
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+1.975
 \end_layout
 
 \end_inset
@@ -1642,7 +2750,7 @@ tex3
 
 \begin_layout Plain Layout
 
-\size small
+\size scriptsize
 Textiles_1831~Skills+Wage+Potential+Water_Flow+SHP+s(X,Y)
 \end_layout
 
@@ -1659,7 +2767,7 @@ Textiles_1831~Skills+Wage+Potential+Water_Flow+SHP+s(X,Y)
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1670,40 +2778,13 @@ Textiles_1831~Skills+Wage+Potential+Water_Flow+SHP+s(X,Y)
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+\size small
+1.910
 \end_layout
 
 \end_inset
@@ -1726,7 +2807,7 @@ tex5
 
 \begin_layout Plain Layout
 
-\size small
+\size scriptsize
 Textiles_1851~Skills+Wage+Potential+STF+s(X,Y)
 \end_layout
 
@@ -1738,18 +2819,29 @@ Textiles_1851~Skills+Wage+Potential+STF+s(X,Y)
 \begin_layout Plain Layout
 
 \size small
-0.1731
+0.173
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size small
 1.220
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+0.957
 \end_layout
 
 \end_inset
@@ -1772,7 +2864,7 @@ tex6
 
 \begin_layout Plain Layout
 
-\size small
+\size scriptsize
 Textiles_1851~Skills+Wage+Potential+Coal_Distance+STF+s(X,Y)
 \end_layout
 
@@ -1784,18 +2876,29 @@ Textiles_1851~Skills+Wage+Potential+Coal_Distance+STF+s(X,Y)
 \begin_layout Plain Layout
 
 \size small
-0.1701
+0.170
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size small
 1.434
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+1.024
 \end_layout
 
 \end_inset
@@ -1818,7 +2921,7 @@ tex7
 
 \begin_layout Plain Layout
 
-\size small
+\size scriptsize
 Textiles_1851~Skills+Wage+Potential+Water_Flow+STF+s(X,Y)
 \end_layout
 
@@ -1830,18 +2933,29 @@ Textiles_1851~Skills+Wage+Potential+Water_Flow+STF+s(X,Y)
 \begin_layout Plain Layout
 
 \size small
-0.1001
+0.100
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \size small
 1.121
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+0.978
 \end_layout
 
 \end_inset
@@ -1865,7 +2979,7 @@ name "tab:Vergleich-der-mittleren"
 \end_inset
 
 Vergleich der mittleren quadratischen Abweichung (MSE) zwischen Regressionsmodel
-l aus Papier (Table 1) und k-fold Cross-Validation
+l aus Papier (Table 1) und k-fold Cross-Validation (CV)
 \end_layout
 
 \end_inset
@@ -1920,6 +3034,18 @@ noprefix "false"
 t aus den leichten Variationen der Landkreise mit mittlerer Textbeschäftigung
  hervorbring.
  Die ausführliche Analyse ist auch hier wieder im R-Skript.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Gerechnet wurden nicht nur die verschiedenen Kombinationen von abhängigen
+ Variablen, sondern auch traditionelle, ohne Korrektur des Geosplines, wie
+ auch Varianten mit Korrektur.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2068,13 +3194,384 @@ Anteil industrialisierter Landkreise 1831 und 1851
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Kritisch-hermeneutische Analyse
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Kritisch-hermeneutische-Analyse"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Autoren
+\end_layout
+
+\begin_layout Standard
+Die Autoren sind international angesehene Ökonomen.
+ 
+\shape italic
+Joel Moky
+\shape default
+, ein in den Niederlanden geborener israelisch-amerikanischer Wirtschaftshistori
+ker an der Northwestern University (USA) kann wohl als führende Chorophäe
+ hinsichtlich der Erforschung von Industrialisierung angesehen werden.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Morgan Kelly
+\shape default
+ ist ein in Irland, auch einem allgemeinem, nichtakademischen Publikum bekannter
+ Wirtschaftshistoriker an der Universität Dublim mit Forschungsschwerpunkt
+ auf irische Wirtschaftsgeschichte.
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Cormac Ó Gráda
+\shape default
+ ist emeritierter Professor für Wirtschafsgeschichte ebenfalls an der Universitä
+t Dublin.
+ Die Publikationsstatistiken der Autoren zeigt Tabelle 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Publikationsstatistiken"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \begin_inset Foot
 status collapsed
 
 \begin_layout Plain Layout
-Gerechnet wurden nicht nur die verschiedenen Kombinationen von abhängigen
- Variablen, sondern auch traditionelle, ohne Korrektur des Geosplines, wie
- auch Varianten mit Korrektur.
+Daten entnommen von 
+\family typewriter
+
+\begin_inset CommandInset href
+LatexCommand href
+name "semanticscholar.org "
+target "https://semanticscholar.org/author/Joel-Mokyr/6374887"
+literal "false"
+
+\end_inset
+
+
+\family default
+am 10.08.2024.
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Darüber hinaus gibt es eine Danksagung für die vermutlich kritische Auseinanders
+etzung an u.a.
+ 
+\shape italic
+Peter Sola
+\shape default
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Vgl.
+ die Fußnoten auf S.
+ 59f.
+ in 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "Kelly2023"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+, einem mir bekannten Wirtschaftsökonomieprofessor der WU Wien, dessen Ausführun
+gen über Industrialisierung auch Teil von Kapitel 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Kritisch-theoretische-Analyse"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ sind, was Hinweise auf den Entstehungsprozess des Papiers liefert.
+ Das Papier ist über einem Zeitraum von mindestens 7 Jahren entstanden.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Es existiert ein Working Paper aus dem Jahr 2015 mit dem Titel 
+\begin_inset Quotes gld
+\end_inset
+
+Roots of Industrial Revolution
+\begin_inset Quotes grd
+\end_inset
+
+ (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "Kelly2015"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Interessanterweise bezeichnet 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "Clark2012"
+literal "false"
+
+\end_inset
+
+ den Hauptautor 
+\shape italic
+Joel Mokyr
+\shape default
+ als einen Vertreter des "idealistischen" Ansatzes (als Gegensatz zu dem
+ im Papier vertretenen materialistischen Ansatzes.
+ Und in der Tat vertritt 
+\shape italic
+Mokyr
+\shape default
+ die Meinung, dass Großbritannien den Rest Europas in die Industrielle Revolutio
+n geführt hatte, weil dort ein optimales "Klima" aus Ideen, Kultur, Institutione
+n und Technologien bestand, die ein schnelles Wirtschaftswachstum ermöglichte.
+ (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "Mokyr2010"
+literal "false"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Autoren
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Publikationen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zitationen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+h-index
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Joel Moky
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+453
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13093
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+52
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cormac Ó Gráda
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+308
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4406
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+36
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Morgan Kelly
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+59
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2922
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+27
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Publikationsstatistiken
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Publikationsstatistiken"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -2083,10 +3580,91 @@ Gerechnet wurden nicht nur die verschiedenen Kombinationen von abhängigen
 \end_layout
 
 \begin_layout Subsection
-Kritisch-hermeneutische Analyse
+Entstehungsdauer
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
+Warum dauerte es so lange bis zur Publikation? Der erste Nachweis für ein
+ Working Paper ist aus dem Jahre 2015 (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "Kelly2015"
+literal "false"
+
+\end_inset
+
+).
+ Das finale Papier (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "Kelly2023"
+literal "false"
+
+\end_inset
+
+) wurde im Jahr 2022 akzeptiert und 2023 veröffentlicht.
+ Natürlich kann nur gemutmaßt werden, warum zwischen Veröffentlichung des
+ Working Papers und des Papiers mindestens sieben Jahre lagen.
+ Naürlich könnte es der Tatsache geschuldet sein, dass die Autoren räumlich
+ getrennt forschen und lehren (USA und Irland).
+ Denkbar wäre aber auch, dass zwischen diesem Working Paper und finalen
+ Papier noch viele Überarbeitungsschritte - evtl.
+ während des Reviewprozesses oder sogar Ablehnung in anderen Journals lagen.
+ Oder die Autoren waren dermaßen überzeugt von ihrem empirischen Ergebnissen,
+ dass sie ein möglichst großes Publikum erreichen wollten.
+ 
+\end_layout
+
+\begin_layout Subsection
+Wahl des Journals
+\end_layout
+
+\begin_layout Standard
+Das Papier wurde im 
+\shape smallcaps
+Journal of Political Economy
+\shape default
+ publiziert.
+ Dieses gehört zu den 
+\begin_inset Quotes gld
+\end_inset
+
+Top Five
+\begin_inset Quotes grd
+\end_inset
+
+ der internationalen Journals im volkswirtschaftlichen Bereich.
+ Fraglich warum die Autoren nicht in einem stärker auf ihr Forschungsgebiet
+ spezialisierten Zeitschrift publiziert haben.
+ Zu denken wäre an das 
+\shape smallcaps
+Journal of Urban Economics
+\shape default
+ oder 
+\shape smallcaps
+Journal of Economic History
+\shape default
+.
+ Die starke Ausrichtung des Papiers auf die Regressionsmodellierung würde
+ auch in das Journal of Econometrics passen.
+ Es wäre durchaus möglich, dass letzt genannte Journals - wenngleich (ebenso)
+ renommiert - als 
+\begin_inset Quotes gld
+\end_inset
+
+low-hanging fruits
+\begin_inset Quotes grd
+\end_inset
+
+ angesehen wurden und die Ergebnisse der Regressionsmodellierung (ich erinnere
+ hier noch mal an die ungewöhnlich hohen R-Werte) die Autoren motivierten,
+ eine Veröffentlichung in einem Top-Five Journal anzustreben.
+ Dies wiederum könnte den schon vormals wahrgenommenen Fehlen eines roten
+ Fadens erklären.
+ 
+\end_layout
+
+\begin_layout Subsection
 Wahl des Regressionsmodells
 \end_layout
 
@@ -2139,7 +3717,7 @@ Eine alternative Erklärung wäre aber auch, dass die Autoren von Anfang diese
  62f.)
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsection
 Nicht auffindbare Referenz
 \end_layout
 
@@ -2149,8 +3727,25 @@ Die wichtigsten beiden Variablen sind die Beschäftigung in der Textilindustrie
  Die Autoren schreiben "Textile employment in 1831 is from Marshall (1833,
  10–11)." (S.
  89).
- Nun führte eine Nachverfolgung der Quelle allerdings dazu, dass an beschriebene
-r Stelle keine Textilbeschäftigungsdaten gefunden werden konnten.
+ Nun führte eine Nachverfolgung der Quelle
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "Marshall1833"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ allerdings dazu, dass an beschriebener Stelle keine Textilbeschäftigungsdaten
+ gefunden werden konnten.
  Das Buch besteht aus zwei Teilen, jeweils mit eigener Seitenzahlnumerierung.
  Somit gibt es zwei mal die Seiten 10-11.
  Ein Screenshot der beiden Seiten befindet sich im Anhang auf Seite 
@@ -2222,6 +3817,10 @@ n gefunden werden.
  eine andere Referenz enthalten haben könnte.
 \end_layout
 
+\begin_layout Subsection
+State-of-the-art Kapitel
+\end_layout
+
 \begin_layout Section
 Fazit
 \end_layout
@@ -2248,7 +3847,106 @@ Resümieriend muss ich feststellen, dass es sich um ein interessantes Papier
  den Entstehungsprozess besser zu verstehen.
 \end_layout
 
+\begin_layout Paragraph
+Zusammenfassung
+\end_layout
+
 \begin_layout Standard
+Mit dieser Seminararbeit versuchte ich, eine kritische Analysse des Papiers
+ "The Mechanics of the Industrial Revolution" vorzulegen.
+ Dabei merkte ich, dass dies auf 20 Seiten kaum zu schaffen ist, die Ausführunge
+n in den einzelnen Kapiteln sind dementsprechend knapp ausgefallen.
+ Auch möchte ich betonen, dass, trotz aller Kritik an den Autoren, das Veröffent
+lichen der sauber aufbereiteten und mit ReadMes versehenen Daten vorbildlich
+ ist; eigentlich ein Standard der für jede wissenschaftlichen auf Datenanylse
+ aufbauende Arbeit gelten sollte.
+ Und schließlich möchte ich in einem letzten Satz noch erwähnen, dass ich
+ selber selbstverständlich nicht fehlerfrei bin: während der Überprüfung
+ der Daten habe ich selber erfahren, wie viele Fehler (flüchtige, fahrlässige,
+ gravierende) man machen kann, die dann zu falschen Schlussfolgerungen führen
+ können; so musste ich mehrfach Vorabthesen, mit denen ich zuänchst meine
+ Analysen bestätigt sah, nachträglich verwerfen.
+ Und natürlich kann dies auch für einzelne Aussagen in dieser Seminararbeit
+ nachträglich der Fall sein.
+ Aus diesem Grund belasse ich das Github Repository zu dieser Seminararbeit
+ auf unbestimmte Zeit öffentlich.
+\end_layout
+
+\begin_layout Paragraph
+Nachtrag
+\end_layout
+
+\begin_layout Standard
+Abschließen möchte ich die Seminararbeit mit Abb.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:The-Industrial-Revolution"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ - einem Bild von Cynthia Stokes-Brown, dass ganz ohne Worte (und in Kontrast
+ zu der Hauptaussage des in dieser Seminararbeit kritisch analysierten Papiers)
+ die Bedeutung von Kohle in der Industrialisierung zeigt.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Entnommen aus: 
+\begin_inset CommandInset href
+LatexCommand href
+name "https://images.app.goo.gl"
+target "https://images.app.goo.gl/VdLEwrfn6isstVZD8"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figures/Cynthia_Stokes_Brown.png
+	width 15cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The Industrial Revolution
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:The-Industrial-Revolution"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \begin_inset Newpage newpage
 \end_inset
 
@@ -2293,7 +3991,7 @@ section{Anhang}
 
 
 \backslash
-subsection{Countie Abkürzungen}
+subsection{Landkreise in England}
 \end_layout
 
 \end_inset
